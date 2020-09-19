@@ -1,0 +1,16 @@
+mymodule.content:
+  path: '/mymodule'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\FirstController::content'
+    _title: 'My First Page and Menu Item'
+  requirements:
+    _permission: 'access content'
+mymodule.content2:
+  path: '/mymodule2'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\SecondController::content'
+    _title: 'My Second Page'
+  requirements:
+    _permission: 'access content'
+    
+
